@@ -1,25 +1,208 @@
 {
   "name": "dracula-pro",
-  "displayName": "Dracula Pro",
-  "description": "Pro Version Of Dracula Theme",
-  "publisher": "Akon M Hasib",
-  "version": "0.0.1",
+  "displayName": "Dracula Pro Pack",
+  "description": "Premium Dracula Pro theme pack featuring Classic, Blade, Buffy, Lincoln, Morbius, and Van Helsing variants.",
+  "publisher": "hasiburr",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.0.0"
   },
   "author": {
-    "name": "Akon M Hasib"
+    "name": "Hasibur Rahman (Akon)"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AkonMHasib/Dracula-Pro.git"
   },
   "icon": "images/icon.png",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dracula",
+    "dracula pro",
+    "dark theme",
+    "color theme",
+    "blade",
+    "buffy",
+    "lincoln",
+    "morbius",
+    "van helsing",
+    "sweet",
+    "special",
+    "blood moon",
+    "royal vampire",
+    "crimson neon",
+    "moonlight castle",
+    "vampire neon",
+    "dark ruby",
+    "eclipse",
+    "cyberpunk",
+    "halloween",
+    "alucard",
+    "frozen",
+    "lavender",
+    "emerald",
+    "sunset",
+    "abyss",
+    "tokyo night",
+    "nord",
+    "goth",
+    "neon green",
+    "sakura",
+    "amber",
+    "synthwave"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Dracula Pro Edition",
+        "label": "Dracula Pro Classic",
         "uiTheme": "vs-dark",
         "path": "./themes/dracula.json"
+      },
+      {
+        "label": "Dracula Pro Blade",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-blade.json"
+      },
+      {
+        "label": "Dracula Pro Buffy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-buffy.json"
+      },
+      {
+        "label": "Dracula Pro Lincoln",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-lincoln.json"
+      },
+      {
+        "label": "Dracula Pro Morbius",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-morbius.json"
+      },
+      {
+        "label": "Dracula Pro Van Helsing",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-van-helsing.json"
+      },
+      {
+        "label": "Dracula Pro Sweet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-sweet.json"
+      },
+      {
+        "label": "Dracula Pro Blood Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-blood-moon.json"
+      },
+      {
+        "label": "Dracula Pro Royal Vampire",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-royal-vampire.json"
+      },
+      {
+        "label": "Dracula Pro Crimson Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-crimson-neon.json"
+      },
+      {
+        "label": "Dracula Pro Moonlight Castle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-moonlight-castle.json"
+      },
+      {
+        "label": "Dracula Pro Vampire Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-vampire-neon.json"
+      },
+      {
+        "label": "Dracula Pro Dark Ruby",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-dark-ruby.json"
+      },
+      {
+        "label": "Dracula Pro Eclipse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-eclipse.json"
+      },
+      {
+        "label": "Dracula Pro Cyberpunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-cyberpunk.json"
+      },
+      {
+        "label": "Dracula Pro Halloween",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-halloween.json"
+      },
+      {
+        "label": "Dracula Pro Alucard Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-alucard-dark.json"
+      },
+      {
+        "label": "Dracula Pro Frozen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-frozen.json"
+      },
+      {
+        "label": "Dracula Pro Lavender",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-lavender.json"
+      },
+      {
+        "label": "Dracula Pro Emerald",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-emerald.json"
+      },
+      {
+        "label": "Dracula Pro Sunset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-sunset.json"
+      },
+      {
+        "label": "Dracula Pro Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-abyss.json"
+      },
+      {
+        "label": "Dracula Pro Tokyo Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-tokyo-night.json"
+      },
+      {
+        "label": "Dracula Pro Nord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-nord.json"
+      },
+      {
+        "label": "Dracula Pro Goth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-goth.json"
+      },
+      {
+        "label": "Dracula Pro Neon Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-neon-green.json"
+      },
+      {
+        "label": "Dracula Pro Sakura",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-sakura.json"
+      },
+      {
+        "label": "Dracula Pro Amber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-amber.json"
+      },
+      {
+        "label": "Dracula Pro Synthwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-synthwave.json"
       }
     ]
   }
